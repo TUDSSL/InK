@@ -1,0 +1,10 @@
+#Files to be ignored as specified: 
+#http://software-dl.ti.com/ccs/esd/documents/sdto_ccs_source-control.html
+##################################
+\Debug 
+\Debug__GNU
+\Release 
+.xdchelp
+.config folder
+.launches folder
+

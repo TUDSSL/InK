@@ -1,0 +1,49 @@
+# FIXED
+
+dsplib/source/lea/msp_lea_flags.obj: ../dsplib/source/lea/msp_lea_flags.c
+dsplib/source/lea/msp_lea_flags.obj: ../dsplib/source/lea/../../include/DSPLib.h
+dsplib/source/lea/msp_lea_flags.obj: /opt/ti/ccsv8/ccs_base/msp430/include/msp430.h
+dsplib/source/lea/msp_lea_flags.obj: /opt/ti/ccsv8/ccs_base/msp430/include/msp430fr5969.h
+dsplib/source/lea/msp_lea_flags.obj: /opt/ti/ccsv8/ccs_base/msp430/include/in430.h
+dsplib/source/lea/msp_lea_flags.obj: /opt/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include/intrinsics.h
+dsplib/source/lea/msp_lea_flags.obj: /opt/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include/intrinsics_legacy_undefs.h
+dsplib/source/lea/msp_lea_flags.obj: /opt/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include/stdint.h
+dsplib/source/lea/msp_lea_flags.obj: /opt/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include/sys/stdint.h
+dsplib/source/lea/msp_lea_flags.obj: /opt/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include/sys/cdefs.h
+dsplib/source/lea/msp_lea_flags.obj: /opt/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include/sys/_types.h
+dsplib/source/lea/msp_lea_flags.obj: /opt/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include/machine/_types.h
+dsplib/source/lea/msp_lea_flags.obj: /opt/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include/machine/_stdint.h
+dsplib/source/lea/msp_lea_flags.obj: /opt/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include/sys/_stdint.h
+dsplib/source/lea/msp_lea_flags.obj: /opt/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include/stdbool.h
+dsplib/source/lea/msp_lea_flags.obj: ../dsplib/source/lea/../../include/DSPLib_types.h
+dsplib/source/lea/msp_lea_flags.obj: ../dsplib/source/lea/../../include/DSPLib_lea.h
+dsplib/source/lea/msp_lea_flags.obj: ../dsplib/source/lea/../../include/DSPLib_support.h
+dsplib/source/lea/msp_lea_flags.obj: ../dsplib/source/lea/../../include/DSPLib_vector.h
+dsplib/source/lea/msp_lea_flags.obj: ../dsplib/source/lea/../../include/DSPLib_matrix.h
+dsplib/source/lea/msp_lea_flags.obj: ../dsplib/source/lea/../../include/DSPLib_filter.h
+dsplib/source/lea/msp_lea_flags.obj: ../dsplib/source/lea/../../include/DSPLib_transform.h
+dsplib/source/lea/msp_lea_flags.obj: ../dsplib/source/lea/../../include/DSPLib_utility.h
+
+../dsplib/source/lea/msp_lea_flags.c: 
+../dsplib/source/lea/../../include/DSPLib.h: 
+/opt/ti/ccsv8/ccs_base/msp430/include/msp430.h: 
+/opt/ti/ccsv8/ccs_base/msp430/include/msp430fr5969.h: 
+/opt/ti/ccsv8/ccs_base/msp430/include/in430.h: 
+/opt/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include/intrinsics.h: 
+/opt/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include/intrinsics_legacy_undefs.h: 
+/opt/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include/stdint.h: 
+/opt/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include/sys/stdint.h: 
+/opt/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include/sys/cdefs.h: 
+/opt/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include/sys/_types.h: 
+/opt/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include/machine/_types.h: 
+/opt/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include/machine/_stdint.h: 
+/opt/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include/sys/_stdint.h: 
+/opt/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include/stdbool.h: 
+../dsplib/source/lea/../../include/DSPLib_types.h: 
+../dsplib/source/lea/../../include/DSPLib_lea.h: 
+../dsplib/source/lea/../../include/DSPLib_support.h: 
+../dsplib/source/lea/../../include/DSPLib_vector.h: 
+../dsplib/source/lea/../../include/DSPLib_matrix.h: 
+../dsplib/source/lea/../../include/DSPLib_filter.h: 
+../dsplib/source/lea/../../include/DSPLib_transform.h: 
+../dsplib/source/lea/../../include/DSPLib_utility.h: 
