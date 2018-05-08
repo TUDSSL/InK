@@ -1,0 +1,1 @@
+"./appinit.obj" "./ctrl_loop.obj" "./eusci_b0_i2c.obj" "./fram_log.obj" "./gyro_sens.obj" "./motor_ctrl.obj" "./prox_sens.obj" "./robot.obj" "./timer.obj" "../lnk_msp430fr5994.cmd" -llibmpu_init.a -l"/home/dpatoukas/Documents/TUDelft/Thesis/Robot/InK/Debug/InK.lib" -llibmath.a -llibc.a 
