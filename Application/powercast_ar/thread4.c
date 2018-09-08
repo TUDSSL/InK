@@ -63,6 +63,8 @@ TASK(t_energy_check)
 TASK(t_transmit)
 {
 	__delay_cycles(1000);
+	//find the library at:
+	//https://github.com/dpatoukas/IRHermes
 	__SIGNAL(THREAD1);
 	__SET(energy_status,0);
 	return NULL;
