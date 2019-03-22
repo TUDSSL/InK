@@ -21,7 +21,8 @@
 // GNU General Public License for more details.
 // 
 // You should have received a copy of the GNU General Public License
-// along with this program.  If not, see <http://www.gnu.org/licenses/>.#include "persistent_timer_commit/persistent_timer.h"
+// along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#include "persistent_timer_commit/persistent_timer.h"
 #include "mcu_specifics/clk.h"
 #include "timer.h"
 //#include "persistent_timer.h"
