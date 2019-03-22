@@ -21,7 +21,8 @@
 // GNU General Public License for more details.
 // 
 // You should have received a copy of the GNU General Public License
-// along with this program.  If not, see <http://www.gnu.org/licenses/>.#ifndef INC_TMR_
+// along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#ifndef INC_TMR_
 #define INC_TMR_
 
 //persistent timers "emulation"
