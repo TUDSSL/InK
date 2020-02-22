@@ -10,7 +10,7 @@
 // status = "Production"
 //
 // 
-// InK is free software: you ca	n redistribute it and/or modify
+// InK is free software: you ca n redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
@@ -25,7 +25,7 @@
 
 #include "ink.h"
 
-#define THREAD1 7
+#define THREAD2 15
 
 // define task-shared persistent variables.
 __shared(
@@ -38,10 +38,10 @@ TASK(t_rtc);
 TASK(t_update);
 
 // called at the very first boot
-void thread1_init(){
+void thread2_init(){
     // create a thread with priority and entry task t_init
-    __CREATE(THREAD1,t_init);
-//    __SIGNAL(THREAD1);
+    __CREATE(THREAD2,t_init);
+//    __SIGNAL(THREAD2);
 }
 
 TASK(t_init){
@@ -56,7 +56,7 @@ TASK(t_rtc){
     // Configure RTC
     RTCCTL01 = RTCHOLD;
     RTCPS = 0;
-    RTCPS1CTL = RT1IP_5 | RT1PSIE;
+    RTCPS1CTL = RT1IP_6 | RT1PSIE;
     RTCCTL01 &= ~(RTCHOLD);                 // Start RTC
 
     LPM3;
@@ -68,8 +68,8 @@ TASK(t_rtc){
 
 TASK(t_update){
     uint8_t l_count = __GET(count) + 1;
-    uint8_t out = __GET(last_out) ^ BIT6;
-    P4OUT = BIT5 | out;  // always keep pull-up resistor on P4.5
+    uint8_t out = __GET(last_out) ^ BIT0;
+    P1OUT = BIT1 | out;  // always keep pull-up resistor on P1.1
     __SET(last_out, out);
 
     if(l_count < 8){
