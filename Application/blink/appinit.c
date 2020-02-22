@@ -39,6 +39,8 @@ void __app_init(){
 
 void __app_reboot(){
     // Configure GPIO
+    P1OUT = 0;
+    P4OUT = 0;
     P1DIR |= BIT0;
     P4DIR |= BIT6;
 

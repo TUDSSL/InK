@@ -59,7 +59,7 @@ TASK(t_rtc){
     RTCPS1CTL = RT1IP_5 | RT1PSIE;
     RTCCTL01 &= ~(RTCHOLD);                 // Start RTC
 
-    LPM3;
+    __bis_SR_register(LPM3_bits | GIE);     // Enter LPM3 w/interrupt
 
     RTCCTL01 = RTCHOLD;
     // next task
