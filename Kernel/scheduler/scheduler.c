@@ -164,7 +164,10 @@ void __scheduler_run()
     // remain consistent and stable.
     __task_commit();
 
+#ifdef TIMERS_ON
     __reboot_timers();
+#endif
+
     // enable interrupts
     __enable_interrupt();
 
